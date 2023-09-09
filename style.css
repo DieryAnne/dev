@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+#bg{
+    background: #171717; 
+    color: #fff;
+    overflow-x: hidden;
+    position: relative;
+}
+*{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .navbar-nav{
+    letter-spacing: 1px;
+}
+.container .navbar-toggler{
+    color: #00040a;
+    border: 3px solid rgb(247, 233, 233);
+    background: linear-gradient(#848b8b 1%, #282d36 100%);
+}
+.top-bar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.collapse{
+    position: relative;
+}
+.navbar-nav{
+    position: absolute;
+    right: 0;
+    z-index: 4;
+}
+
+.container .welcome {    
+    font-size: 25px;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+}
+.container .item{
+    width: fit-content;
+}
+.container h1{
+    max-width: 460px;
+    font-size: 58px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: normal;
+    max-width: 300px;
+    font-family: system-ui;
+}
+.container .CEO{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#btn{
+    border-radius: 10px;
+    background: linear-gradient(#15B9B9 1%, #3C1DFF 100%);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.27px;
+    width: 260px;
+    height: 60px;
+}
+#btn:hover{
+    transform: scale(1.05);
+}
+
+.container .image{
+    margin-top: -92px;
+}
+.container .image .img{
+    width: 550px;
+    height: 600px;
+}
+@media screen and (max-width: 767.525px){
+    .container .image{
+        order: -1;
+    }
+    .container h1{
+        min-width: 466.14px;
+        font-size: 48px;
+        letter-spacing: normal;
+    }
+    .container .welcome{
+        font-size: 18px;
+    }
+    .container .CEO{
+        font-size: 15px;
+    }
+    #list-client{
+        gap: 0;
+    }
+    .container .item{
+        margin-left: -30px;
+        text-align: center;
+    }  
+    .container .textt{
+        font-size: 36px;
+    }
+    .container .title{
+        letter-spacing: normal;
+        font-size: 38px;
+        width: 100%;
+    }
+    .div-tiret .tiret{
+        visibility: hidden;
+    }
+    .container .name{
+        font-size: 20px;
+    }
+    .container .span-group{
+        font-size: 14px;
+    }
+    .container .tex{
+        margin-left: -10px;
+    }
+    .container .tex h3{
+        font-size: 19px;
+    }
+    footer .h2{
+        letter-spacing: normal;
+        font-size: 12px;
+        margin-top: -20px;
+    }
+}
+
+.container .client , .container .p{
+    font-size: 28px;
+    letter-spacing: 0.5px;
+}
+.list-client{
+    width: fit-content;
+    gap: 75px;
+}
+.container .list-client .client {
+    font-size: 28px;
+    letter-spacing: 0.5px;
+}
+
+.container .bg-img{
+    height: 440px;
+    width: 70%;
+    background: #5A6C6C;
+}
+.container .bg-img .img{
+    height: 95%;
+    width: 119%;
+    left: 35px;
+    bottom: -10px;
+}
+.container .textte{
+    text-transform: capitalize;
+    font-size: 13.5px;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 462px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 445.5px){
+    .container .textte{
+        max-width: 355px;
+    }
+}
+
+.underline{
+    background: #fff;
+    width: 145px;
+    height: 2px;
+    font-weight: bold;
+}
+
+.title{
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 46px;
+}
+
+.container .box .circle img{
+    width: 210px;
+    height: 200px;
+}
+.container .box p{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.019px;
+}
+.container .box .circle h3{
+    position: absolute;
+    font-weight: 600;
+    left: 70px;
+    top: 65px;
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+.container .lang{
+    border-bottom: 2px solid #fff;
+    max-width: 390px;
+}
+.container h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.container .div{
+    width: fit-content;
+}
+.container .span-right{
+    right: 4px;
+    bottom: 22px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.container .solid1{
+    height: 20px;
+    width: 400px;
+    border-radius: 20px;
+    background: linear-gradient(#15B9B9 1%, #3C1DFF 100%);
+    background: linear-gradient(90deg, #3C1DFF 10.42%, #14C9C9 75%);
+}
+.container .solid2{
+    height: 20px;
+    width: 300px;
+    border-radius: 20px;
+    background: linear-gradient(#15B9B9 1%, #3C1DFF 100%);
+    background: linear-gradient(90deg, #3C1DFF 10.42%, #14C9C9 75%);
+}
+.bg-icone{
+    height: 80px;
+    width: 80px;
+}
+
+.container .icone .ordi{
+    left: 26px;
+    top: 22px;
+}
+.name{
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+.span-group{
+    font-size: 16px;
+    color: #8c8585;
+}
+.container .auto{
+    margin: auto;
+}
+
+.div-tiret .tiret{
+    right: -150px;
+    height: 3px;
+    width: 47%;
+    bottom: 40px;
+    background: #626262;
+}
+
+.images img{
+    width: 530px;
+    height: 335px;
+    box-shadow: 5px 6px 10px #635c5c;
+    transition: 1s linear;
+}
+.images img:hover{
+    transform: scale(1.04);
+    border: 10px solid #ffffff;
+    box-shadow: -5px -6px 20px #9c5353;
+}
+.images .text-img{
+    position: relative;
+}
+.images .text-img .tex h3{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.images .text-img .tex{
+    bottom: 0;
+    left: 9%;
+    font-family: 600;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+footer .h2{
+    font-weight: 600;
+    font-size: 46px;
+    letter-spacing: 3px;
+}
+footer p{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #8c8585;
+}
+footer p #btn{
+    width: 230px;
+    font-size: 20px;
+}
